@@ -30,10 +30,6 @@ body{
     color: rgb(110, 106, 106);
     font-weight: 600;
 }
-.navbar-items i{
- display: inline-block;
- padding: 0.7rem;
-}
 ul{
     list-style: none;
 }
@@ -45,11 +41,18 @@ li::before{
     color:  rgb(110, 106, 106);
 }
 .after-style:after{
-content: "Opens in a new tab";
-padding: 0.5rem;
+    background-image: url(/images/out.svg);
+    background-repeat: no-repeat;
+    background-size: 1.8rem;
+    background-position: left;
+    content: "Opens in a new tab";
+    padding: 3rem;
     font-size: 1.7rem;
     font-weight: 400;
     color:  rgb(110, 106, 106);
     font-family: 'Roboto', sans-serif;
     opacity: 0.4;
 }
+/* [herf="https://www.google.de/"]{
+    
+} */
